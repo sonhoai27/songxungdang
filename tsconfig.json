@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "/public",
+      "module": "esnext",
+      "target": "es5",
+      "lib": ["es6", "dom"],
+      "sourceMap": true,
+      "allowJs": true,
+      "jsx": "react",
+      "moduleResolution": "node",
+      "rootDir": ".",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true,
+      "noImplicitAny": false,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "downlevelIteration": true
+    },
+    "paths": {
+      "*": [ "node_modules/@types/*", "*"]
+    },
+    "typeRoots": [ "./node_modules/@types" ],
+    "exclude": [
+      "public",
+      "node_modules",
+      "build",
+      "scripts",
+      "acceptance-tests",
+      "webpacks",
+      "src/setupTests.ts"
+    ]
+  }
