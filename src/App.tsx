@@ -8,7 +8,9 @@ class App extends React.Component {
         return (
             <>
             <ClientHeader/>
+            <div className="margin-top">
             <SongXungDang/>
+            </div>
             <Footer/>
             </>
         )
