@@ -2,8 +2,11 @@ import * as React from "react";
 import { connect } from "react-redux";
 import { reListPageUI } from "../../reducers/init";
 import ItemPage from '../../DynamicPage/item'
+import MainSche from "../../DynamicPage/MainSche";
 const IDPAGE = 6;
-const listCom = {}
+const listCom = {
+    TKB: <MainSche/>
+}
 interface IProps {
     resListPageUI: any;
     reListPageUI: (id: number) => void;

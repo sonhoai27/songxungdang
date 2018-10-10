@@ -1,17 +1,32 @@
 import * as React from "react";
-import ClientHeader from './shared/Header';
-import Footer from "./shared/Footer";
 import SongXungDang from "./addons/songxungdang/SongXungDang";
-
-class App extends React.Component {
+import Loading from "./shared/loading";
+interface IState {
+    isLoading: boolean
+}
+class App extends React.Component<{}, IState> {
+    constructor(props){
+        super(props)
+        this.state = {
+            isLoading: false
+        }
+    }
+    componentDidMount(){
+        setTimeout(()=> {
+            this.setState({
+                isLoading: !this.state.isLoading
+            })
+        }, 2000)
+    }
     render(){
         return (
             <>
-            <ClientHeader/>
             <div className="margin-top">
             <SongXungDang/>
             </div>
-            <Footer/>
+            {
+                !this.state.isLoading ? <Loading/> : ''
+            }
             </>
         )
     }

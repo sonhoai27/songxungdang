@@ -132,3 +132,10 @@ body {
 .nav-logo li {
     height: auto !important;
 }
+
+.hai-phut__row-one {
+  display: block;
+}
+.flex-ver {
+  display: block;
+}
