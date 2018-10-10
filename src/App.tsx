@@ -1,5 +1,5 @@
 import * as React from "react";
-import SongXungDang from "./addons/songxungdang/SongXungDang";
+import GBG from "./addons/GBG";
 import Loading from "./shared/loading";
 interface IState {
     isLoading: boolean
@@ -22,7 +22,7 @@ class App extends React.Component<{}, IState> {
         return (
             <>
             <div className="margin-top">
-            <SongXungDang/>
+            <GBG/>
             </div>
             {
                 !this.state.isLoading ? <Loading/> : ''

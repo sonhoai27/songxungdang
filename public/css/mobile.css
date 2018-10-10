@@ -132,10 +132,23 @@ body {
 .nav-logo li {
     height: auto !important;
 }
-
-.hai-phut__row-one {
-  display: block;
-}
 .flex-ver {
   display: block;
+}
+
+.gbg__vi-sao-lai-co-ct__image {
+  margin: auto;
+  float: initial;
+}
+
+.gbg__list-item-vong-3 .item {
+  display: block;
+}
+.gbg__list-item-vong-3 .item img {
+  flex: 1;
+  width: 64%;
+  margin-right: 0;
+  border-radius: 100%;
+  margin: auto;
+  margin-bottom: 32px;
 }
