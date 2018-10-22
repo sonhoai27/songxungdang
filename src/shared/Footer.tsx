@@ -11,14 +11,13 @@ class Footer extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-xs-12">
-                <h2>Vui Lòng Liên Hệ Để Tham Gia Chương Trình Sớm Nhất:</h2>
-                <h2>Nguyễn Minh Chí - Sống Xứng Đáng</h2>
+                <h1 style={{color: 'yellow'}}>HỌC VIỆN THẾ HỆ SỐNG XỨNG ĐÁNG</h1>
+                <h1 style={{fontSize: 22}}> - Phụng sự tuổi trẻ Việt - </h1>
               </div>
-              <div className="col-sm-2"></div>
-              <div className="col-sm-4">
+              <div className="col-sm-6">
                 <div>
                   <a
-                    href="https://www.facebook.com/NguyenMinhChi.MrShare/"
+                    href="https://www.facebook.com/info.songxungdang/"
                     target="_blank"
                   >
                     <span className="fa fa-facebook" />
@@ -44,7 +43,7 @@ class Footer extends React.Component {
                   </a>
                 </div>
               </div>
-              <div className="col-sm-4">
+              <div className="col-sm-6">
                 <div>
                   <span className="fa fa-mobile-phone" />
                   &nbsp;0977545374
@@ -58,7 +57,6 @@ class Footer extends React.Component {
                   &nbsp;26/3 Phan Chu Trinh, Hiệp Phú, Quận 9, Tp.HCM
                 </div>
               </div>
-              <div className="col-sm-2"></div>
             </div>
           </div>
         </div>
