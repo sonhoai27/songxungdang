@@ -10,8 +10,8 @@ class Footer extends React.Component {
         <div className="row">
           <div className="container">
             <div className="row">
-              <div className="col-xs-12">
-                <h1 style={{color: 'yellow'}}>HỌC VIỆN THẾ HỆ SỐNG XỨNG ĐÁNG</h1>
+              <div className="col-sm-12">
+                <h1 style={{color: 'yellow'}}>HỌC VIỆN SỐNG XỨNG ĐÁNG</h1>
                 <h1 style={{fontSize: 22}}> - Phụng sự tuổi trẻ Việt - </h1>
               </div>
               <div className="col-sm-6">
@@ -21,16 +21,16 @@ class Footer extends React.Component {
                     target="_blank"
                   >
                     <span className="fa fa-facebook" />
-                    &nbsp;Facebook
+                    &nbsp;Sống Xứng Đáng
                   </a>
                 </div>
                 <div>
                   <a
-                    href="https://www.facebook.com/groups/MatMaThoiSinhVien/"
+                    href="https://www.facebook.com/NguyenMinhChi.MrShare/"
                     target="_blank"
                   >
                     <span className="fa fa-comment" />
-                    &nbsp;Facebook Group
+                    &nbsp;Nguyễn Minh Chí
                   </a>
                 </div>
                 <div>

@@ -17,6 +17,7 @@ class SongXungDang extends React.Component<IProps, {}> {
     }
     componentDidMount() {
         this.props.reListPageUI(IDPAGE);
+        window.scrollTo(0,0)
     }
     render(){
         return(

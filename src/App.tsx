@@ -2,6 +2,7 @@ import * as React from "react";
 import SongXungDang from "./addons/songxungdang/SongXungDang";
 import Loading from "./shared/loading";
 import Footer from "./shared/Footer";
+import { addTraffic } from './shared/traffic';
 interface IState {
     isLoading: boolean
 }
@@ -13,6 +14,10 @@ class App extends React.Component<{}, IState> {
         }
     }
     componentDidMount(){
+        addTraffic({
+            url: 'http://songxungdang.com',
+            type: 0
+        })
         setTimeout(()=> {
             this.setState({
                 isLoading: !this.state.isLoading
